@@ -14,7 +14,7 @@ export default function Home() {
     <>
       {/* Hero */}
       <section className="relative isolate overflow-hidden pt-18">
-        <div className="absolute inset-x-0 bottom-0 -z-10 h-[62%] md:h-[70%]">
+        <div className="absolute inset-x-0 bottom-0 -z-10 h-[46%] [mask-image:linear-gradient(to_bottom,transparent,black_40%)] md:h-[55%]">
           <HeroTiles />
         </div>
         <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_left,rgb(31_63_143/0.45),transparent_60%)]" />
@@ -27,7 +27,7 @@ export default function Home() {
               <em className="font-normal text-strait">Wesley Chapel.</em>
             </h1>
             <p className="mt-7 max-w-xl text-lg text-cream/85">
-              Halal meats fresh, never frozen. Lavas baked to order. Kebabs from the charcoal grill. From the family that
+              Halal meats fresh, never frozen. Lavas baked to order. Chargrilled kebabs and house-made baklava. From the family that
               opened Central Florida&rsquo;s original Turkish restaurant in 2004.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-3">
@@ -54,7 +54,7 @@ export default function Home() {
               alt=""
               width={935}
               height={479}
-              className="absolute -bottom-6 -left-8 w-28 drop-shadow-xl md:w-36"
+              className="absolute -bottom-5 -left-6 w-24 drop-shadow-xl md:w-28"
             />
           </div>
         </div>

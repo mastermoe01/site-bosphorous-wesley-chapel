@@ -41,7 +41,7 @@ export const photos = {
   shepherd: { src: "/photos/shepherd-salad.webp", alt: "Fresh salad with feta, bulgur and vegetables", w: 1600, h: 1067, origin: "brand" },
   feta: { src: "/photos/feta-plate.webp", alt: "Feta plate with peppadews, cucumber and tomato", w: 1600, h: 1067, origin: "brand" },
   pineapple: { src: "/photos/turkish-pineapple.webp", alt: "Turkish pineapple delight, sponge cake layered with pineapple and mousse", w: 1600, h: 1299, origin: "brand" },
-  grill: { src: "/photos/kebabs-on-the-grill.webp", alt: "Kebab skewers over the flames of the charcoal grill", w: 1600, h: 733, origin: "brand" },
+  grill: { src: "/photos/kebabs-on-the-grill.webp", alt: "Kebab skewers over the flames of the grill", w: 1600, h: 733, origin: "brand" },
   mojito: { src: "/photos/bar-blueberry-mojito.webp", alt: "A blueberry mojito from the Bosphorous bar", w: 554, h: 416, origin: "brand" },
   oldFashioned: { src: "/photos/bar-old-fashioned.webp", alt: "An old fashioned from the Bosphorous bar", w: 648, h: 482, origin: "brand" },
 } satisfies Record<string, Photo>;
