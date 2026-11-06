@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* Design tokens — clients/bosphorous-wesley-chapel/design-brief.md */
+@theme {
+  --color-night: #0b1430;
+  --color-night-2: #132049;
+  --color-night-3: #1b2b5e;
+  --color-plaster: #f3eee4;
+  --color-plaster-2: #e8e0d1;
+  --color-ink: #1a1712;
+  --color-cream: #f6f1e7;
+  --color-tulip: #e61e25;
+  --color-tulip-deep: #c4161c;
+  --color-strait: #2ea8e0;
+  --color-cobalt: #1f3f8f;
+  --color-brass: #c9a46a;
+  --color-brass-deep: #8a6a36;
+
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-manrope), system-ui, sans-serif;
+
+  --ease-pour: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: var(--color-night);
+  color: var(--color-cream);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+}
+
+.label {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-strait);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* The facade's own arch, used as a photo frame. */
+.arch {
+  border-radius: 999px 999px 18px 18px;
+}
+
+/* Static Iznik hex pattern: the no-WebGL / reduced-motion fallback and section texture. */
+.tile-pattern {
+  background-color: var(--color-night);
+  background-image:
+    radial-gradient(circle at 50% 50%, rgb(46 168 224 / 0.16) 0 18%, transparent 19%),
+    radial-gradient(circle at 0 0, rgb(31 63 143 / 0.55) 0 30%, transparent 31%),
+    radial-gradient(circle at 100% 100%, rgb(31 63 143 / 0.55) 0 30%, transparent 31%),
+    radial-gradient(circle at 100% 0, rgb(243 238 228 / 0.08) 0 22%, transparent 23%),
+    radial-gradient(circle at 0 100%, rgb(243 238 228 / 0.08) 0 22%, transparent 23%);
+  background-size: 64px 56px;
+}

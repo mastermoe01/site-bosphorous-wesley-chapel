@@ -1,0 +1,103 @@
+{
+  "source": "https://order.toasttab.com/online/bosphorous-turkish-cuisine-tampa-wesley-chapel",
+  "captured": "2026-11-06",
+  "note": "Wesley Chapel Toast online-ordering menu (pickup), verbatim. Prices subject to change.",
+  "sections": [
+    {"id":"appetizers","title":"Appetizers","turkish":"Mezeler","items":[
+      {"name":"Lavas","desc":"Our signature, baked-to-order bread creation. Highly recommended for all soups & appetizers","price":"6.00"},
+      {"name":"Mixed Appetizer","desc":"A combination of Humus, Babaganoush, Sautéed Eggplant, Muhammara, Ezme, Cacik, Haydari and Zetinyagli Yaprak Dolma","price":"23.00"},
+      {"name":"Select Two Appetizer","desc":"Your choice of any two - Humus, Sautéed Eggplant, Muhammara, Babaganoush, Ezme, Haydari, Cacik","price":"12.00"},
+      {"name":"Humus","desc":"Freshly puréed chickpeas with tahini, garlic, lemon juice and extra virgin olive oil","price":"8.00"},
+      {"name":"Babaganoush","desc":"Fresh smoked eggplant purée with tahini, olive oil & yogurt","price":"9.00"},
+      {"name":"Ezme","desc":"Spicy blend of chopped tomatoes, red & green bell peppers, red onion, walnuts, garlic, parsley, dill pickle, jalapeño pepper & lemon juice","price":"9.00"},
+      {"name":"Haydari","desc":"Thick and creamy yogurt mixed with walnuts, dill and mint","price":"9.00"},
+      {"name":"Muhammara","desc":"Puree of red peppers, walnuts, garlic, olive oil & pomegranate","price":"9.00"},
+      {"name":"Sauteed Eggplant","desc":"Eggplant in a rich tomato sauce with red & green bell peppers, onion and garlic","price":"9.00"},
+      {"name":"Stuffed Grape Leaves","desc":"(Zetinyagli Yaprak Dolma) Grape leaves filled with rice, pine nuts, currants, onion, and fresh herbs & spices","price":"11.00"},
+      {"name":"Feta Plate","desc":"Imported feta cheese and peppadew peppers with spring mix, tomato & cucumber slices","price":"11.00"},
+      {"name":"Falafel","desc":"Chickpeas, celery, parsley and green onions tossed in spices and lightly fried. Served with tahini sauce","price":"12.00"},
+      {"name":"Sigara Boregi","desc":"Crispy filo dough stuffed with creamy feta cheese and parsley","price":"12.00"},
+      {"name":"Calamari","desc":"Crispy fried calamari served with a light pine nut infused sauce","price":"18.00"},
+      {"name":"Pan-Fried Zucchini","desc":"A delicious combination of tender zucchini and fresh herbs & spices. Served with our special yogurt sauce","price":"12.00"},
+      {"name":"Fried Liver","desc":"Tender, hand-breaded beef liver pan-fried and served over sautéed fries and freshly sliced red onions","price":"14.00"},
+      {"name":"Red Lentil Soup","desc":"A vegetarian blend of red lentils, Turkish seasonings & fresh herbs","price":"8.48"},
+      {"name":"Pita Bread","desc":"","price":"1.00"}
+    ]},
+    {"id":"salads","title":"Salads","turkish":"Salatalar","items":[
+      {"name":"White Bean Salad","desc":"White beans, tomatoes, bell pepper, and parsley, topped with a hard-boiled egg, and a freshly made vinaigrette","price":"15.00"},
+      {"name":"House Salad","desc":"Romaine hearts, spring mix, tomatoes, cucumber, bell pepper & feta cheese with a vinaigrette","price":"14.00"},
+      {"name":"Shepherd Salad","desc":"Diced cucumber, tomatoes, bell pepper, parsley, and red onion tossed in a Turkish vinaigrette","price":"15.00"}
+    ]},
+    {"id":"pide","title":"Special Turkish Pastry","turkish":"Pide","items":[
+      {"name":"Cheese Pide","desc":"A thick dough crust stuffed with cheese and topped with fresh tomatoes","price":"20.00"},
+      {"name":"Spinach & Feta Pide","desc":"A thick dough crust topped with sautéed spinach, onions, feta cheese & fresh","price":"21.00"},
+      {"name":"Lahmacun","desc":"A popular Turkish dish with freshly ground lamb blended with peppers, tomatoes, parsley and fresh herbs on thin-crusted dough","price":"21.00"}
+    ]},
+    {"id":"chicken","title":"Chicken","turkish":"Tavuk","items":[
+      {"name":"Chicken Sis","desc":"Hand-carved fresh chicken breast marinated in our chef’s blend of unique seasonings and chargrilled","price":"25.00"},
+      {"name":"Chicken Adana","desc":"Grilled skewers of hand-ground chicken seasoned with fresh garlic, red bell peppers, light hot peppers & parsley","price":"25.00"},
+      {"name":"Chicken Kofte","desc":"Finely diced chicken seasoned with dill, green onions, garlic & parsley, hand-formed and chargrilled","price":"24.00"},
+      {"name":"Chicken Saute","desc":"Tender pieces of chicken breast seasoned with herbs & spices and sautéed with fresh onions, red & green bell peppers, and mushrooms. Served with your choice of lemon, tomato or rich cream sauce and rice pilaf.","price":"25.00"}
+    ]},
+    {"id":"lamb-beef","title":"Lamb & Beef","turkish":"Kuzu ve Dana","items":[
+      {"name":"Lamb Sis","desc":"Skewers of tender lamb marinated in our chef’s unique seasonings and chargrilled to perfection","price":"36.00"},
+      {"name":"Lamb Adana","desc":"Freshly ground lamb flavored with red bell peppers & light hot peppers, sprinkled with seasonings and expertly chargrilled","price":"27.00"},
+      {"name":"Lamb Kofte","desc":"Ground lamb blended with garlic and our chef’s unique seasonings then hand formed and chargrilled","price":"28.00"},
+      {"name":"Lamb Saute","desc":"Tender pieces of lamb delicately seasoned with herbs & spices and sautéed with onions, red & green bell peppers, and mushrooms in a tomato sauce. Served with rice pilaf","price":"27.00"},
+      {"name":"Special Beyti","desc":"Hand-carved lamb flavored with garlic, hot Turkish peppers & parsley, then chargrilled on skewers and wrapped in our special pita. Topped with house-made tomato and yogurt sauces","price":"29.00"},
+      {"name":"Iskender Kebab","desc":"","price":"29.00"},
+      {"name":"Doner Kebab","desc":"Tender lamb, grilled vertically & thinly sliced","price":"28.00"},
+      {"name":"Mixed Grill","desc":"A delicious combination of Doner Kebap, Chicken & Lamb Adana Kebap, Chicken & Lamb Sis Kebap, and Chicken & Lamb Köfte. Includes one side of Cacik-Cucumber yogurt. Served over our rice pilaf","price":"55.00"},
+      {"name":"Beef Sis","desc":"Tender cubes of beef tenderloin delicately marinated and chargrilled","price":"39.00"},
+      {"name":"Bosphorous Lamb Chops","desc":"","price":"46.00"}
+    ]},
+    {"id":"saute","title":"Sauté & Oven","turkish":"Güveç","items":[
+      {"name":"Lamb Shank","desc":"Seasoned to perfection with our authentic Turkish spices and seasonings, braised slowly over 5 hours with a medley of fresh carrots, onions & bell peppers until the meat is tender enough to fall off the bone. Served with rice pilaf","price":"38.00"},
+      {"name":"Moussaka","desc":"Roasted eggplant layered with fresh ground lamb and tomatoes, topped with a light béchamel sauce and kaşar cheese, then baked to perfection. Served with rice pilaf","price":"25.00"},
+      {"name":"Vegetable Saute","desc":"A delightful combination of fresh eggplant, bell peppers, onions, green beans, zucchini, potatoes, carrots & garlic in a savory tomato sauce. Served with rice pilaf","price":"22.00"},
+      {"name":"Okra Saute","desc":"Turkish okra cooked with red & green peppers, onions and garlic in a savory tomato sauce. Served with rice pilaf","price":"24.00"},
+      {"name":"Stuffed Cabbage","desc":"Freshly ground lamb mixed with rice, mint, tomatoes, onion, red & green bell peppers, and garlic then expertly hand-rolled in cabbage. Topped with house-made tomato and yogurt sauces","price":"26.00"}
+    ]},
+    {"id":"seafood","title":"Seafood","turkish":"Deniz Ürünleri","items":[
+      {"name":"Sea Bass","desc":"Fresh Mediterranean sea bass (whole or fillet), chargrilled and served with mixed green salad & choice of rice pilaf or french fries","price":"42.00"},
+      {"name":"Salmon","desc":"Fresh Atlantic Salmon seasoned with our special spices & served chargrilled or broiled with mixed green salad & choice of rice pilaf or french fries","price":"29.00"},
+      {"name":"Shrimp Saute","desc":"Fresh shrimp sautéed with onions, red & green bell peppers, mushrooms, and garlic in a choice of lemon, tomato, or rich cream sauce. Served with rice pilaf","price":"31.00"},
+      {"name":"Shrimp Casserole","desc":"Fresh shrimp sautéed with bell peppers, onions, mushrooms, garlic, and herbs, then topped with kasar cheese in a rich cream sauce. Served with rice pilaf","price":"32.00"}
+    ]},
+    {"id":"desserts","title":"Desserts","turkish":"Tatlılar","items":[
+      {"name":"Baklava","desc":"Our house-made baklava with layers of crispy, thin pastry dough filled with pistachios and topped with citrus-infused syrup","price":"8.00"},
+      {"name":"Kunefe","desc":"Shredded filo dough filled with sweet Turkish cheese, baked and topped with citrus-infused syrup & pistachios. Perfect for sharing","price":"14.00"},
+      {"name":"Chocolate Baklava","desc":"Peterbrooke chocolate freshly ground hazelnuts, and flaky filo dough topped with citrus-infused syrup","price":"8.00"},
+      {"name":"Chocolate Mousse","desc":"A rich mousse made with Peterbrooke dark chocolate and a hint of Turkish coffee","price":"8.00"},
+      {"name":"Turkish Pineapple","desc":"Layers of moist yellow sponge cake, pineapple, and mousse topped with white chocolate shavings","price":"11.00"}
+    ]},
+    {"id":"sides","title":"Sides","turkish":"Yan Lezzetler","items":[
+      {"name":"Cacik On the Side","desc":"","price":"3.50"},
+      {"name":"Feta on the Side","desc":"","price":"3.50"},
+      {"name":"French Fries","desc":"","price":"3.50"},
+      {"name":"Garlic Yogurt","desc":"","price":"2.50"},
+      {"name":"Iskender Sauce","desc":"","price":"2.50"},
+      {"name":"Mixed Vegetables","desc":"","price":"3.50"},
+      {"name":"Pickles","desc":"","price":"4.00"},
+      {"name":"Plain Yogurt","desc":"","price":"2.50"},
+      {"name":"Rice Pilaf","desc":"","price":"2.50"},
+      {"name":"Side Peppadew","desc":"","price":"3.50"},
+      {"name":"Vegetable Plate","desc":"","price":"4.00"}
+    ]},
+    {"id":"beverages","title":"Non-Alcoholic Beverages","turkish":"İçecekler","items":[
+      {"name":"Ayran","desc":"","price":"7.00"},
+      {"name":"Turkish Orange Soda","desc":"","price":"4.00"},
+      {"name":"Turkish Lemon Lime Soda","desc":"","price":"4.00"},
+      {"name":"Uladag Su","desc":"","price":"4.00"},
+      {"name":"Uladag Pomegranate","desc":"","price":"4.00"},
+      {"name":"Fever-Tree Ginger Beer","desc":"","price":"5.00"},
+      {"name":"Fever-Tree Grapefruit","desc":"","price":"5.00"},
+      {"name":"San Pellegrino","desc":"","price":"8.00"},
+      {"name":"Acqua Panna","desc":"","price":"8.00"},
+      {"name":"Coke","desc":"","price":"4.00"},
+      {"name":"Diet Coke","desc":"","price":"4.00"},
+      {"name":"Coke Zero","desc":"","price":"4.00"},
+      {"name":"Starry","desc":"","price":"4.00"}
+    ]}
+  ]
+}
