@@ -3,13 +3,17 @@ import { site } from "@/lib/site";
 type Size = "md" | "lg";
 const pad: Record<Size, string> = { md: "px-5 py-3 text-sm", lg: "px-7 py-4 text-base" };
 
-export function ReserveButton({ size = "md", className = "" }: { size?: Size; className?: string }) {
+export function ReserveButton({ size = "md", variant = "solid", className = "" }: { size?: Size; variant?: "solid" | "outline"; className?: string }) {
+  const look =
+    variant === "solid"
+      ? "bg-tulip text-white shadow-[0_10px_30px_-10px_rgb(230_30_37/0.7)] hover:bg-tulip-deep"
+      : "border border-cream/35 text-cream hover:border-cream hover:bg-cream/10";
   return (
     <a
       href={site.reserve}
       target="_blank"
       rel="noopener"
-      className={`inline-flex items-center justify-center gap-2 rounded-full bg-tulip font-semibold text-white shadow-[0_10px_30px_-10px_rgb(230_30_37/0.7)] transition-colors hover:bg-tulip-deep ${pad[size]} ${className}`}
+      className={`inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-colors ${look} ${pad[size]} ${className}`}
     >
       Book a table
       <span aria-hidden>→</span>

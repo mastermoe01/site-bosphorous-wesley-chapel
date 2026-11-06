@@ -22,8 +22,8 @@ export default function MenuPage() {
             free options are plentiful.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <OrderButton size="lg" className="border-tulip bg-tulip text-white hover:bg-tulip-deep" />
-            <ReserveButton size="lg" className="bg-transparent shadow-none ring-1 ring-cream/35 hover:bg-cream/10" />
+            <OrderButton size="lg" className="!border-tulip !bg-tulip !text-white hover:!bg-tulip-deep" />
+            <ReserveButton size="lg" variant="outline" />
           </div>
         </div>
       </header>

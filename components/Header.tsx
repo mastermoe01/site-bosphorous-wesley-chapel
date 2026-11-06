@@ -24,7 +24,9 @@ export function Header() {
           </ul>
         </nav>
         <div className="flex items-center gap-3">
-          <ReserveButton className="hidden sm:inline-flex" />
+          <span className="hidden sm:block">
+            <ReserveButton />
+          </span>
           <MobileMenu />
         </div>
       </div>

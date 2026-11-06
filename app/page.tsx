@@ -164,7 +164,8 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-6 px-5 md:grid-cols-2 md:px-8">
           <Reveal className="h-full">
             <div className="relative h-full overflow-hidden rounded-3xl bg-night-2 p-10">
-              <Image src={photos.grill.src} alt="" fill sizes="(min-width: 768px) 45vw, 100vw" className="object-cover opacity-30" />
+              <Image src={photos.grill.src} alt="" fill sizes="(min-width: 768px) 45vw, 100vw" className="object-cover opacity-40" />
+              <div className="absolute inset-0 bg-gradient-to-r from-night-2 via-night-2/90 to-night-2/30" />
               <div className="relative">
                 <p className="label text-brass">Party with us</p>
                 <h2 id="groups-heading" className="font-display mt-3 text-3xl md:text-4xl">
@@ -181,7 +182,8 @@ export default function Home() {
           </Reveal>
           <Reveal delay={0.08} className="h-full">
             <div className="relative h-full overflow-hidden rounded-3xl bg-night-2 p-10">
-              <Image src={photos.baklava.src} alt="" fill sizes="(min-width: 768px) 45vw, 100vw" className="object-cover opacity-30" />
+              <Image src={photos.baklava.src} alt="" fill sizes="(min-width: 768px) 45vw, 100vw" className="object-cover opacity-40" />
+              <div className="absolute inset-0 bg-gradient-to-r from-night-2 via-night-2/90 to-night-2/30" />
               <div className="relative">
                 <p className="label text-brass">Share the taste of Turkey</p>
                 <h2 className="font-display mt-3 text-3xl md:text-4xl">Gift cards</h2>
